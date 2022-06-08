@@ -1,0 +1,7 @@
+Lade nötiges Paket: taskscheduleR
+ERFOLGREICH: Die geplante Aufgabe "DT_MK_R_LG2_Read_Email_log" wurde erfolgreich gelöscht.
+[1] 0
+Fehler in select_folder_int(self, name, mute, retries) : 
+  Request error: the server returned an error.
+Ruft auf: service_email_LG2 -> <Anonymous> -> select_folder_int
+Ausführung angehalten
