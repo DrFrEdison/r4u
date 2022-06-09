@@ -37,3 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+data/model/CCEP/CCEP_Fanta_Lemon_Zero_Acid_Acesulfam_Aspartam_T1K_LG3.txt
+
+data/model/dt_model_overview.ods

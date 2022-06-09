@@ -1,20 +1,18 @@
-dt <- list(); dt$R <- paste0(Sys.getenv("OneDriveCommercial"), "/FE_Methoden/", "Allgemein/R_dt_project/")
-source(paste0(dt$R,"R/source_read.R"))
+library(devtools); suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T) ); library(r4dt); dt <- list()
 
-dt$customerlist
-dt$line <- "L3_PET_CSD" #line
-dt$info <- .customer.location.by.line(line = dt$line)
+dt_customer
+dt$line <- "G9" #line
+dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
-dt$firstday <- "2022-01-01" # Date range min
-dt$lastday <- "2022-06-01" # Date range max
+dt$firstday <- "2022-04-11" # Date range min
+dt$lastday <- "2022-04-13" # Date range max
 
-.customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt$product_ID) # All product ID's and names in the chosen timeframe
-.customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt$product_ID) # All product ID's on this line
+customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
+customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
-dt$product <- c(15) # Choose Product ID, NA for everything
-
+dt$product <- NA
 # Only LG3
-dt$typecode <- NA # NA, everything; 0, production; 2, start of production; 16, hand measurement
+dt$typecode <- 16 # NA, everything; 0, production; 2, start of production; 16, hand measurement
 
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
@@ -37,4 +35,7 @@ read.csv.LG(firstday = dt$firstday
             , Ringkessel =  dt$Ringkessel
             , typeof = dt$typeof
             , slim =  dt$slim
-            , return.R =  F)
+            , return.R =  F
+            , product_ID = dt_customer_product_ID
+            , customer.list = dt_customer
+            , export_directory = wd$csvtemp)
