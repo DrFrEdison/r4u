@@ -12,7 +12,7 @@ customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt
 
 dt$product <- NA
 # Only LG3
-dt$typecode <- 16 # NA, everything; 0, production; 2, start of production; 16, hand measurement
+dt$typecode <- 0 # NA, everything; 0, production; 2, start of production; 16, hand measurement
 
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
