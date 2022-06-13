@@ -4,7 +4,7 @@ dt_customer
 dt$line <- "G9" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
-dt$firstday <- "2022-04-11" # Date range min
+dt$firstday <- "2022-04-01" # Date range min
 dt$lastday <- "2022-04-13" # Date range max
 
 customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
