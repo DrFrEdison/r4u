@@ -1,6 +1,6 @@
 # Package update and initialization ####
 library(devtools)
-suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = F) )
+suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
 suppressPackageStartupMessages(library(r4dt))
 
 # Read csv from ServiceBackup ####
