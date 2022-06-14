@@ -1,9 +1,11 @@
-dt <- list(); dt$R <- paste0(Sys.getenv("OneDriveCommercial"), "/FE_Methoden/", "Allgemein/R_dt_project/")
-source(paste0(dt$R,"R/source_read.R"))
+# Package update and initialization ####
+library(devtools)
+suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
+suppressPackageStartupMessages(library(r4dt))
 
-# Just change things from here ####
+# Unzip files to service backup ####
 dt$line <-F # do you want to execute the function only for the chosen customer / location / unit? If yes, than set to T
-dt$customerlist
+dt_customer
 dt$customer <- "MEG"
 dt$location <- "Loeningen"
 dt$line.choose <- "SG"

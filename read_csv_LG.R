@@ -1,5 +1,10 @@
-library(devtools); suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T) ); library(r4dt); dt <- list()
+# Package update and initialization ####
+library(devtools)
+suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = F) )
+suppressPackageStartupMessages(library(r4dt))
 
+# Read csv from ServiceBackup ####
+dt <- list()
 dt_customer
 dt$line <- "G9" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
@@ -23,7 +28,7 @@ dt$export_directory = "C://csvtemp"
 
 dt$slim <- T # get only important colums
 
-dt$entertain <- F # Let me entertain you!
+dt$entertain <- T # Let me entertain you!
 
 read.csv.LG(firstday = dt$firstday
             , lastday = dt$lastday

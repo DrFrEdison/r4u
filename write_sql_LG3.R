@@ -1,5 +1,10 @@
-dt <- list(); dt$R <- paste0(Sys.getenv("OneDriveCommercial"), "/FE_Methoden/", "Allgemein/R_dt_project/")
-source(paste0(dt$R,"R/source_read.R"))
+# Package update and initialization ####
+library(devtools)
+suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
+suppressPackageStartupMessages(library(r4dt))
+
+# Write csv from SQL folder to ServiceBackup ####
+dt <- list()
 
 # path to .csv files
 setwd(dt$wd <- print(wd$sql$LG3) ) 

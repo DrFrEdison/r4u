@@ -1,5 +1,10 @@
-dt <- list(); dt$R <- paste0(Sys.getenv("OneDriveCommercial"), "/FE_Methoden/", "Allgemein/R_dt_project/")
-source(paste0(dt$R,"R/source_read.R"))
+# Package update and initialization ####
+library(devtools)
+suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
+library(r4dt)
+
+# Read product ID from ServiceBackup csv files####
+dt <- list()
 
 for(i in 1:nrow(dt$customerlist))
 produkt_per_day_year(customer = dt$customerlist$customer[i]
