@@ -4,6 +4,7 @@ suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "
 suppressPackageStartupMessages(library(r4dt))
 
 # Unzip files to service backup ####
+dt <- list()
 dt$line <-F # do you want to execute the function only for the chosen customer / location / unit? If yes, than set to T
 dt_customer
 dt$customer <- "MEG"

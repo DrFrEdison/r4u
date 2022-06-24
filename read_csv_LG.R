@@ -6,18 +6,18 @@ suppressPackageStartupMessages(library(r4dt))
 # Read csv from ServiceBackup ####
 dt <- list()
 dt_customer
-dt$line <- "L3_PET_CSD" #line
+dt$line <- "G9" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
 dt$firstday <- "2022-01-01" # Date range min
-dt$lastday <- "2022-06-14" # Date range max
+dt$lastday <- "2022-06-24" # Date range max
 
 customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
-dt$product <- 20
+dt$product <- 10
 # Only LG3
-dt$typecode <- 0 # NA, everything; 0, production; 2, start of production; 16, hand measurement
+dt$typecode <- NA # NA, everything; 0, production; 2, start of production; 16, hand measurement
 
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra

@@ -75,20 +75,22 @@ if(as.numeric(strftime(Sys.Date(), "%u")) == 6){ # Delete on each Saturday
 lg_master <- list()
 lg_master$dat <- read.csv2(paste0(wd$VBox, "R2go/wd/service_check.csv"), sep = "\t") # Service File
 lg_master$wd <- "C:/csvtemp/lg_service" # wd to download files
-lg_master$today <- as.Date(Sys.Date())
+
+for(i in 7:0){
+lg_master$today <- as.Date(Sys.Date()) - i
 lg_master$yesterday <- lg_master$today - 1 # Yesterday
 
 # unzip ####
-for(i in 4:0){
 main$unzip <- T
 main$unzip_type <- lg_master$yesterday - i
 if(as.numeric(strftime(Sys.Date(), "%u")) == 3){ # Unzip all files on each Wednesday
   main$unzip_type <- NA}
 
+for(j in 1:9){
 # Function ####
 service_email_LG2(today = lg_master$today
                   , yesterday = lg_master$yesterday
-                  , systems = lg_master$dat
+                  , systems = lg_master$dat[j,]
                   , wd_export = lg_master$wd
                   , servicemail = main$serviceemail
                   , serviceimap = main$serviceimap
@@ -98,6 +100,7 @@ service_email_LG2(today = lg_master$today
                   , folder = main$folder
                   , delete_files = main$delete_files
                   , delete_emails = main$delete_mail)
+}
 }
 # unzip ####
 dt$lineT <- T # do you want to execute the function only for the chosen customer / location / unit? If yes, than set to T
