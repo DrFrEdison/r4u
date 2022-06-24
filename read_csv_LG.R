@@ -16,18 +16,24 @@ customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
 dt$product <- 10
+
 # Only LG3
-dt$typecode <- NA # NA, everything; 0, production; 2, start of production; 16, hand measurement
+dt_LG3_typecode
+dt$typecode <- NA
 
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
 
+# type of spectra
 dt$typeof <- c("spc", "ref", "drk") # c("spc", "ref", "drk")
 
+# export directory
 dt$export_directory = "C://csvtemp"
 
+# slim data output
 dt$slim <- T # get only important colums
 
+# entertainment needed?
 dt$entertain <- T # Let me entertain you!
 
 read.csv.LG(firstday = dt$firstday
