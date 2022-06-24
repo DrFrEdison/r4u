@@ -6,9 +6,9 @@ library(r4dt)
 # Read product ID from ServiceBackup csv files####
 dt <- list()
 
-for(i in 1:nrow(dt$customerlist))
-produkt_per_day_year(customer = dt$customerlist$customer[i]
-                     , location = dt$customerlist$location[i]
-                     , line = dt$customerlist$line[i]
-                     , LG = dt$customerlist$LG[i]
+for(i in 1:nrow(dt_customer))
+produkt_per_day_year(customer = dt_customer$customer[i]
+                     , location = dt_customer$location[i]
+                     , line = dt_customer$line[i]
+                     , LG = dt_customer$LG[i]
                      , year = substr(Sys.Date(),1,4))
