@@ -15,11 +15,13 @@ dt$lastday <- "2022-06-24" # Date range max
 customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
-dt$product <- 10
+# choose product
+dt$product <- 10 # NA for all
 
 # Only LG3
 dt_LG3_typecode
 dt$typecode <- NA
+if( !is.na(dt$typecode) ) message("Typecode is not NA")
 
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
