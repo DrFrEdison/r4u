@@ -76,7 +76,6 @@ lg_master <- list()
 lg_master$dat <- read.csv2(paste0(wd$VBox, "R2go/wd/service_check.csv"), sep = "\t") # Service File
 lg_master$wd <- "C:/csvtemp/lg_service" # wd to download files
 
-for(i in 7:0){
 lg_master$today <- as.Date(Sys.Date()) - i
 lg_master$yesterday <- lg_master$today - 1 # Yesterday
 
@@ -86,7 +85,6 @@ main$unzip_type <- lg_master$yesterday - i
 if(as.numeric(strftime(Sys.Date(), "%u")) == 3){ # Unzip all files on each Wednesday
   main$unzip_type <- NA}
 
-for(j in 1:9){
 # Function ####
 service_email_LG2(today = lg_master$today
                   , yesterday = lg_master$yesterday
@@ -100,8 +98,7 @@ service_email_LG2(today = lg_master$today
                   , folder = main$folder
                   , delete_files = main$delete_files
                   , delete_emails = main$delete_mail)
-}
-}
+
 # unzip ####
 dt$lineT <- T # do you want to execute the function only for the chosen customer / location / unit? If yes, than set to T
 dt$customer <- "CCEP"
@@ -128,9 +125,8 @@ for(o in 1:nrow(lg_master$dat)){
 
 }
 
-
-service.email.log <- paste0(wd$R.user.logs, "service_email_LG2_log.R")
+service.email.log <- paste0("D:/OneDrive - Dausch Technologies GmbH/FE_Methoden/Allgemein/r4u/logs/service_email_LG2_log.R")
 taskscheduler_create(taskname = "DT_MK_R_LG2_Read_Email_log", rscript = service.email.log,
                      schedule = "ONCE", starttime = format(Sys.time() + 60, "%H:%M"))
-setwd(wd$R.user.logs)
+setwd("D:/OneDrive - Dausch Technologies GmbH/FE_Methoden/Allgemein/r4u/logs/")
 unlink("service_email_LG2_log.log")
