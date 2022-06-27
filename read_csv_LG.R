@@ -6,7 +6,7 @@ suppressPackageStartupMessages(library(r4dt))
 # Read csv from ServiceBackup ####
 dt <- list()
 dt_customer
-dt$line <- "G9" #line
+dt$line <- "L3_PET_CSD" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
 dt$firstday <- "2022-01-01" # Date range min
@@ -16,7 +16,7 @@ customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
 # choose product
-dt$product <- 10 # NA for all
+dt$product <- 3 # NA for all
 
 # Only LG3
 dt_LG3_typecode
