@@ -76,12 +76,12 @@ lg_master <- list()
 lg_master$dat <- read.csv2(paste0(wd$VBox, "R2go/wd/service_check.csv"), sep = "\t") # Service File
 lg_master$wd <- "C:/csvtemp/lg_service" # wd to download files
 
-lg_master$today <- as.Date(Sys.Date()) - i
+lg_master$today <- as.Date(Sys.Date())
 lg_master$yesterday <- lg_master$today - 1 # Yesterday
 
 # unzip ####
 main$unzip <- T
-main$unzip_type <- lg_master$yesterday - i
+main$unzip_type <- lg_master$yesterday
 if(as.numeric(strftime(Sys.Date(), "%u")) == 3){ # Unzip all files on each Wednesday
   main$unzip_type <- NA}
 
