@@ -1,6 +1,6 @@
 # move all .csv and .spc files to service backup
-dt <- list(); dt$R <- paste0(Sys.getenv("OneDriveCommercial"), "/FE_Methoden/", "Allgemein/R_dt_project/")
-source(paste0(dt$R,"R/source_read.R"))
+library(r4dt)
+dt <- list()
 wartung <- list()
 
 # csv ####
