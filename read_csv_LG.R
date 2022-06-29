@@ -1,6 +1,5 @@
 # Package update and initialization ####
-library(devtools)
-suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
+suppressMessages(devtools::install_github("DrFrEdison/r4dt", upgrade = "never", build = F, quiet = T))
 suppressPackageStartupMessages(library(r4dt))
 
 # Read csv from ServiceBackup ####
@@ -9,14 +8,16 @@ dt_customer
 dt$line <- "L3_PET_CSD" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
-dt$firstday <- "2022-01-01" # Date range min
+# date range
+dt$firstday <- "2022-04-01" # Date range min
 dt$lastday <- "2022-06-24" # Date range max
 
+# product overview
 customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
 # choose product
-dt$product <- 3 # NA for all
+dt$product <- 21 # NA for all
 
 # Only LG3
 dt_LG3_typecode
@@ -26,17 +27,17 @@ if( !is.na(dt$typecode) ) message("Typecode is not NA")
 # Only LG2
 dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
 
-# type of spectra
-dt$typeof <- c("spc", "ref", "drk") # c("spc", "ref", "drk")
+# type of spectra c("spc", "ref", "drk")
+dt$typeof <- c("spc", "ref", "drk")
 
 # export directory
 dt$export_directory = "C://csvtemp"
 
-# slim data output
-dt$slim <- T # get only important colums
+# slim data output with less columns
+dt$slim <- T
 
 # entertainment needed?
-dt$entertain <- T # Let me entertain you!
+dt$entertain <- F # Let me entertain you!
 
 read.csv.LG(firstday = dt$firstday
             , lastday = dt$lastday

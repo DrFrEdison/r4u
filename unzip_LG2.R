@@ -1,6 +1,5 @@
 # Package update and initialization ####
-library(devtools)
-suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T, upgrade = "always", quiet = T) )
+suppressMessages(devtools::install_github("DrFrEdison/r4dt", upgrade = "never", build = F, quiet = T))
 suppressPackageStartupMessages(library(r4dt))
 
 # Unzip files to service backup ####
@@ -24,3 +23,5 @@ unzip.merge.LG2(year = dt$year
                 , line = dt$line
                 , unzip.dir = dt$unzip.dir)
 if(dt$entertain==T){play.audioSample(.entertainment$alarm);suppressMessages(.breakfun(10));par(mfrow=c(1,1));plot(.entertainment$egal_image,axes=F);suppressMessages(.breakfun(10))}
+
+
