@@ -88,7 +88,7 @@ if(as.numeric(strftime(Sys.Date(), "%u")) == 3){ # Unzip all files on each Wedne
 # Function ####
 service_email_LG2(today = lg_master$today
                   , yesterday = lg_master$yesterday
-                  , systems = lg_master$dat[j,]
+                  , systems = lg_master$dat
                   , wd_export = lg_master$wd
                   , servicemail = main$serviceemail
                   , serviceimap = main$serviceimap

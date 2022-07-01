@@ -9,15 +9,15 @@ dt$line <- "L3_PET_CSD" #line
 dt$info <- customer.location.by.line(line = dt$line, dt_customer)
 
 # date range
-dt$firstday <- "2022-04-01" # Date range min
-dt$lastday <- "2022-06-24" # Date range max
+dt$firstday <- "2022-01-01" # Date range min
+dt$lastday <- "2022-07-01" # Date range max
 
 # product overview
 customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$firstday, dt$lastday, dt_customer_product_ID) # All product ID's and names in the chosen timeframe
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
 # choose product
-dt$product <- 21 # NA for all
+dt$product <- 15 # NA for all
 
 # Only LG3
 dt_LG3_typecode
