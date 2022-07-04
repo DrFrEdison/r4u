@@ -99,32 +99,6 @@ service_email_LG2(today = lg_master$today
                   , delete_files = main$delete_files
                   , delete_emails = main$delete_mail)
 
-# unzip ####
-dt$lineT <- T # do you want to execute the function only for the chosen customer / location / unit? If yes, than set to T
-dt$customer <- "CCEP"
-dt$LG <- "2"
-dt$date_choose <- lg_master$yesterday # Unzip only one date?
-dt$year = "2022"
-dt$unzip_to_dir <- "C:/csvtemp"
-
-for(i in 1:nrow(lg_master$dat)){
-  dt$location <- lg_master$dat$Standort[i]
-  dt$line <- lg_master$dat$Anlage[i]
-  unzip.merge.LG2(year = dt$year, date = dt$date_choose, line = dt$lineT, unzip.dir = dt$unzip_to_dir)
-}
-
-
-# Product data ####
-for(o in 1:nrow(lg_master$dat)){
-  produkt_per_day_year(customer = lg_master$dat$Kunde[o]
-                       , location = lg_master$dat$Standort[o]
-                       , line = lg_master$dat$Anlage[o]
-                       , LG = lg_master$dat$LG[o]
-                       , year = year(lg_master$today)
-                       , date = lg_master$yesterday)
-
-}
-
 service.email.log <- paste0("D:/OneDrive - Dausch Technologies GmbH/FE_Methoden/Allgemein/r4u/logs/service_email_LG2_log.R")
 taskscheduler_create(taskname = "DT_MK_R_LG2_Read_Email_log", rscript = service.email.log,
                      schedule = "ONCE", starttime = format(Sys.time() + 60, "%H:%M"))
