@@ -409,7 +409,7 @@ if(!all(wartung$zipfiles$Eppelheim$TS3 %in% dir(paste0(wd$servicebackup$CapriSun
 if(!all(wartung$zipfiles$Eppelheim$TS4 %in% dir(paste0(wd$servicebackup$CapriSun$Eppelheim$TS4, "ZIP/")))) file.copy(wartung$zipsub$Eppelheim$TS4, paste0(wd$servicebackup$CapriSun$Eppelheim$TS4, "ZIP/", wartung$zipfiles$Eppelheim$TS4))
 if(!all(wartung$zipfiles$Eppelheim$TS5 %in% dir(paste0(wd$servicebackup$CapriSun$Eppelheim$SG500FS, "ZIP/")))) file.copy(wartung$zipsub$Eppelheim$TS5, paste0(wd$servicebackup$CapriSun$Eppelheim$TS5, "ZIP/", wartung$zipfiles$Eppelheim$TS5))
 
-
+library(this.path)
 setwd(this.dir())
 setwd("./logs")
 dir.create(newwd <- as.character(gsub("[0-9.-]", "", Sys.info()["nodename"])), showWarnings = F)

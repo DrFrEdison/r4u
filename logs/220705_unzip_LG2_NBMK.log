@@ -1,0 +1,36 @@
+    customer LG         location       line shortcut samplingtime timerange
+ 1:     CCEP  2        Genshagen         G2      GEN           90        45
+ 2:     CCEP  2        Genshagen         G3      GEN           90        45
+ 3:     CCEP  2        Genshagen         G6      GEN           90        45
+ 4:     CCEP  2        Karlsruhe     BCANKD      KAR           90        45
+ 5:      MEG  2           Woerth         A3      WOE           NA        NA
+ 6:      MEG  2           Woerth         A5      WOE           NA        NA
+ 7:      MEG  2           Woerth         A6      WOE           NA        NA
+ 8:      MEG SG        Loeningen   BLT31_32      LOE           NA        NA
+ 9:      MEG  2        Loeningen     LG_LOE      LOE           NA        NA
+10:      MEG  2           Kirkel         A4      KIR           NA        NA
+11:     CCEP  3          Dorsten         DS      DOR          180        45
+12:     CCEP  3          Dorsten         DC      DOR          180        45
+13:     CCEP  3 Moenchengladbach         G9      MOG           60        45
+14:     CCEP  3         Mannheim         MY      MAN            0        45
+15:  PepsiCo  1     Nieder_Roden L3_PET_CSD      NIR           NA        NA
+16: CapriSun SG        Eppelheim        TS1      EPP           NA        NA
+17: CapriSun SG        Eppelheim        TS2      EPP           NA        NA
+18: CapriSun SG        Eppelheim        TS3      EPP           NA        NA
+19: CapriSun SG        Eppelheim        TS4      EPP           NA        NA
+20: CapriSun SG        Eppelheim    SG500FS      EPP           NA        NA
+No new files found for CCEP Genshagen G2, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CCEP/GEN/G2/ZIP/
+No new files found for CCEP Genshagen G3, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CCEP/GEN/G3/ZIP/
+No new files found for CCEP Genshagen G6, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CCEP/GEN/G6/ZIP/
+No new files found for CCEP Karlsruhe BCANKD, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CCEP/KAR/BCANKD/ZIP/
+No new files found for MEG Woerth A3, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Woerth/A3/ZIP/
+No new files found for MEG Woerth A5, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Woerth/A5/ZIP/
+No new files found for MEG Woerth A6, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Woerth/A6/ZIP/
+No new files found for MEG Loeningen BLT31_32, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Loeningen/BLT31_32/ZIP/
+No new files found for MEG Kirkel A4, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Kirkel/A4/ZIP/
+No new files found for PepsiCo Nieder_Roden L3_PET_CSD, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/PepsiCo/Nieder_Roden/L3_PET_CSD/ZIP/
+No new files found for CapriSun Eppelheim TS1, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CapriSun/Eppelheim/TS1/ZIP/
+No new files found for CapriSun Eppelheim TS2, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CapriSun/Eppelheim/TS2/ZIP/
+No new files found for CapriSun Eppelheim TS3, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CapriSun/Eppelheim/TS3/ZIP/
+No new files found for CapriSun Eppelheim TS4, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CapriSun/Eppelheim/TS4/ZIP/
+No new files found for CapriSun Eppelheim SG500FS, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/CapriSun/Eppelheim/SG500FS/ZIP/
