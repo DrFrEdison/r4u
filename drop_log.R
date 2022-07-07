@@ -1,0 +1,2 @@
+library(devtools); suppressMessages(install_github("DrFrEdison/r4dt", dependencies = T) ); suppressPackageStartupMessages(library(r4dt))
+drop_log(dirname(rstudioapi::getSourceEditorContext()$path), SG = F)
