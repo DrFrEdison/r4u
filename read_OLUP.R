@@ -14,3 +14,16 @@ show_else <- F # set to T if you want to see also Scores and Leverages
 write <- F # set to T if you want to export a .csv in your working directory
 
 olup_read <- read_olup( olup_raw = olup_raw, ncomp = ncomp, write = write, show_else = show_else); print(olup_read)
+
+# Right Click in UNSB Prediction "Copy with Headers"
+# Run the following line afterwards
+unsb_raw <- readClipboard()
+
+show_else <- F # set to T if you want to see also Y_Deviation
+write <- F # set to T if you want to export a .csv in your working directory
+
+unsb_read <- read_unsb_prediction(unsb_raw, show_else = show_else, write = write); print(unsb_read)
+
+
+# Result should be more or less zero
+round(olup_read$Y_Pred - unsb_read$Y_Pred, 3)
