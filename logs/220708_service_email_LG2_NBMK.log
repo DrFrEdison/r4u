@@ -1,0 +1,353 @@
+Loading required package: usethis
+Loading required package: anytime
+Loading required package: audio
+Loading required package: chron
+Loading required package: data.table
+Loading required package: forecast
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Loading required package: fs
+Loading required package: htmlwidgets
+Loading required package: hyperSpec
+Loading required package: lattice
+Loading required package: grid
+Loading required package: ggplot2
+Loading required package: xml2
+Package hyperSpec, version 0.100.0
+
+To get started, try
+   vignette ("hyperspec")
+   package?hyperSpec 
+   vignette (package = "hyperSpec")
+
+If you use this package please cite it appropriately.
+   citation("hyperSpec")
+will give you the correct reference.
+
+The project homepage is http://hyperspec.r-forge.r-project.org
+
+
+Loading required package: imager
+Loading required package: magrittr
+
+Attaching package: 'imager'
+
+The following object is masked from 'package:magrittr':
+
+    add
+
+The following object is masked from 'package:grid':
+
+    depth
+
+The following object is masked from 'package:audio':
+
+    play
+
+The following objects are masked from 'package:stats':
+
+    convolve, spectrum
+
+The following object is masked from 'package:graphics':
+
+    frame
+
+The following object is masked from 'package:base':
+
+    save.image
+
+Loading required package: lubridate
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:data.table':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from 'package:chron':
+
+    days, hours, minutes, seconds, years
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Loading required package: mdatools
+Loading required package: openxlsx
+Loading required package: pbapply
+Loading required package: plotly
+
+Attaching package: 'plotly'
+
+The following object is masked from 'package:imager':
+
+    highlight
+
+The following object is masked from 'package:ggplot2':
+
+    last_plot
+
+The following object is masked from 'package:stats':
+
+    filter
+
+The following object is masked from 'package:graphics':
+
+    layout
+
+Loading required package: pls
+
+Attaching package: 'pls'
+
+The following object is masked from 'package:mdatools':
+
+    crossval
+
+The following object is masked from 'package:stats':
+
+    loadings
+
+Loading required package: plyr
+
+Attaching package: 'plyr'
+
+The following objects are masked from 'package:plotly':
+
+    arrange, mutate, rename, summarise
+
+The following object is masked from 'package:imager':
+
+    liply
+
+The following object is masked from 'package:hyperSpec':
+
+    empty
+
+Loading required package: dplyr
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:plyr':
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+The following object is masked from 'package:hyperSpec':
+
+    collapse
+
+The following objects are masked from 'package:data.table':
+
+    between, first, last
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: png
+Loading required package: prospectr
+[34mprospectr version 0.2.4 -- [39m'mandarina'
+[34mcheck the github repository at: https://github.com/l-ramirez-lopez/prospectr/[39m
+
+Attaching package: 'prospectr'
+
+The following object is masked from 'package:pls':
+
+    msc
+
+Loading required package: pspline
+Loading required package: R.utils
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.8.2 (2022-06-13 22:00:14 UTC) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.25.0 (2022-06-12 02:20:02 UTC) successfully loaded. See ?R.oo for help.
+
+Attaching package: 'R.oo'
+
+The following object is masked from 'package:R.methodsS3':
+
+    throw
+
+The following object is masked from 'package:magrittr':
+
+    equals
+
+The following objects are masked from 'package:devtools':
+
+    check, unload
+
+The following objects are masked from 'package:methods':
+
+    getClasses, getMethods
+
+The following objects are masked from 'package:base':
+
+    attach, detach, load, save
+
+R.utils v2.12.0 (2022-06-28 03:20:05 UTC) successfully loaded. See ?R.utils for help.
+
+Attaching package: 'R.utils'
+
+The following object is masked from 'package:prospectr':
+
+    resample
+
+The following object is masked from 'package:mdatools':
+
+    capitalize
+
+The following object is masked from 'package:magrittr':
+
+    extract
+
+The following object is masked from 'package:utils':
+
+    timestamp
+
+The following objects are masked from 'package:base':
+
+    cat, commandArgs, getOption, isOpen, nullfile, parse, warnings
+
+Loading required package: Rcpp
+Loading required package: readODS
+Loading required package: rsvg
+Linking to librsvg 2.48.8
+Loading required package: signal
+
+Attaching package: 'signal'
+
+The following objects are masked from 'package:R.utils':
+
+    resample, unwrap
+
+The following object is masked from 'package:prospectr':
+
+    resample
+
+The following object is masked from 'package:dplyr':
+
+    filter
+
+The following object is masked from 'package:plotly':
+
+    filter
+
+The following object is masked from 'package:imager':
+
+    interp
+
+The following objects are masked from 'package:stats':
+
+    filter, poly
+
+Loading required package: sound
+
+Attaching package: 'sound'
+
+The following object is masked from 'package:lubridate':
+
+    duration
+
+The following objects are masked from 'package:imager':
+
+    channels, mirror, play
+
+The following objects are masked from 'package:audio':
+
+    play, play.default, play.Sample
+
+Loading required package: stringi
+Loading required package: tibble
+Loading required package: tools
+
+Attaching package: 'r4dt'
+
+The following object is masked from 'package:lubridate':
+
+    date
+
+The following object is masked from 'package:forecast':
+
+    ma
+
+The following object is masked from 'package:stats':
+
+    time
+
+The following object is masked from 'package:base':
+
+    date
+
+Loading required package: taskscheduleR
+Warning message:
+package 'taskscheduleR' was built under R version 4.2.1 
+ERFOLGREICH: Die geplante Aufgabe "DT_MK_R_LG2_Read_Email_log" wurde erfolgreich gelöscht.
+[1] 0
+
+::mRpostman: "INBOX" selected.
+Found 25 attachments with .log and .spc files in INBOX from CCEP_Genshagen_G2_LG2
+Found 1 attachments with .csv files in INBOX from CCEP_Genshagen_G2_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 40 attachments with .log and .spc files in INBOX from CCEP_Genshagen_G3_LG2
+Found 1 attachments with .csv files in INBOX from CCEP_Genshagen_G3_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 42 attachments with .log and .spc files in INBOX from CCEP_Genshagen_G6_LG2
+Found 1 attachments with .csv files in INBOX from CCEP_Genshagen_G6_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 43 attachments with .log and .spc files in INBOX from CCEP_Karlsruhe_BCANKD_LG2
+Found 1 attachments with .csv files in INBOX from CCEP_Karlsruhe_BCANKD_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 1 attachments with .log and .spc files in INBOX from MEG_Woerth_A3_LG2
+Found 0 attachments with .csv files in INBOX from MEG_Woerth_A3_LG2
+
+::mRpostman: "INBOX" selected.
+Found 23 attachments with .log and .spc files in INBOX from MEG_Woerth_A5_LG2
+Found 1 attachments with .csv files in INBOX from MEG_Woerth_A5_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 2 attachments with .log and .spc files in INBOX from MEG_Woerth_A6_LG2
+Found 1 attachments with .csv files in INBOX from MEG_Woerth_A6_LG2
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: the fetch operation is complete.
+
+::mRpostman: "INBOX" selected.
+Found 1 attachments with .log and .spc files in INBOX from MEG_Kirkel_A4_LG2
+Found 0 attachments with .csv files in INBOX from MEG_Kirkel_A4_LG2
+
+::mRpostman: "INBOX" selected.
+Found 1 attachments with .log and .spc files in INBOX from MEG_Loeningen_BLT31_32_SG
+Found 0 attachments with .csv files in INBOX from MEG_Loeningen_BLT31_32_SG
+Full path to filename 'D:/OneDrive - Dausch Technologies GmbH/FE_Methoden/Allgemein/r4u/logs/service_email_LG2_log.R' contains spaces, it is advised to put your script in another location which contains no spaces
+[1] "ERFOLGREICH: Die geplante Aufgabe \"DT_MK_R_LG2_Read_Email_log\" wurde erfolgreich erstellt."
