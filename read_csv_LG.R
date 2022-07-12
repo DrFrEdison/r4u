@@ -17,7 +17,7 @@ customer.location.line.products(dt$info$customer, dt$info$location, dt$line, dt$
 customer.location.line.productID(dt$info$customer, dt$info$location, dt$line, dt_customer_product_ID) # All product ID's on this line
 
 # choose product
-dt$product <- NA # NA for all
+dt$product <- 16 # NA for all
 
 # Only LG3
 dt_LG3_typecode
@@ -25,10 +25,10 @@ dt$typecode <- NA
 if( !is.na(dt$typecode) ) message("Typecode is not NA")
 
 # Only LG2
-dt$Ringkessel = F # watch out! Only Ringkessel == T exports valid spectra
+dt$Ringkessel = T # watch out! Only Ringkessel == T exports valid spectra
 
 # type of spectra c("spc", "ref", "drk")
-dt$typeof <- c("spc")
+dt$typeof <- c("spc", "ref", "drk")
 
 # export directory
 dt$export_directory = "C://csvtemp"
