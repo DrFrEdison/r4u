@@ -1,0 +1,448 @@
+Loading required package: anytime
+Loading required package: audio
+Loading required package: chron
+Loading required package: data.table
+Loading required package: forecast
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Loading required package: fs
+Loading required package: htmlwidgets
+Loading required package: hyperSpec
+Loading required package: lattice
+Loading required package: grid
+Loading required package: ggplot2
+Loading required package: xml2
+Package hyperSpec, version 0.100.0
+
+To get started, try
+   vignette ("hyperspec")
+   package?hyperSpec 
+   vignette (package = "hyperSpec")
+
+If you use this package please cite it appropriately.
+   citation("hyperSpec")
+will give you the correct reference.
+
+The project homepage is http://hyperspec.r-forge.r-project.org
+
+
+Loading required package: imager
+Loading required package: magrittr
+
+Attaching package: 'imager'
+
+The following object is masked from 'package:magrittr':
+
+    add
+
+The following object is masked from 'package:grid':
+
+    depth
+
+The following object is masked from 'package:audio':
+
+    play
+
+The following objects are masked from 'package:stats':
+
+    convolve, spectrum
+
+The following object is masked from 'package:graphics':
+
+    frame
+
+The following object is masked from 'package:base':
+
+    save.image
+
+Loading required package: lubridate
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:data.table':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from 'package:chron':
+
+    days, hours, minutes, seconds, years
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Loading required package: mdatools
+Loading required package: openxlsx
+Loading required package: pbapply
+Loading required package: plotly
+
+Attaching package: 'plotly'
+
+The following object is masked from 'package:imager':
+
+    highlight
+
+The following object is masked from 'package:ggplot2':
+
+    last_plot
+
+The following object is masked from 'package:stats':
+
+    filter
+
+The following object is masked from 'package:graphics':
+
+    layout
+
+Loading required package: pls
+
+Attaching package: 'pls'
+
+The following object is masked from 'package:mdatools':
+
+    crossval
+
+The following object is masked from 'package:stats':
+
+    loadings
+
+Loading required package: plyr
+
+Attaching package: 'plyr'
+
+The following objects are masked from 'package:plotly':
+
+    arrange, mutate, rename, summarise
+
+The following object is masked from 'package:imager':
+
+    liply
+
+The following object is masked from 'package:hyperSpec':
+
+    empty
+
+Loading required package: dplyr
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:plyr':
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+The following object is masked from 'package:hyperSpec':
+
+    collapse
+
+The following objects are masked from 'package:data.table':
+
+    between, first, last
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: png
+Loading required package: prospectr
+[34mprospectr version 0.2.4 -- [39m'mandarina'
+[34mcheck the github repository at: https://github.com/l-ramirez-lopez/prospectr/[39m
+
+Attaching package: 'prospectr'
+
+The following object is masked from 'package:pls':
+
+    msc
+
+Loading required package: pspline
+Loading required package: R.utils
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.8.2 (2022-06-13 22:00:14 UTC) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.25.0 (2022-06-12 02:20:02 UTC) successfully loaded. See ?R.oo for help.
+
+Attaching package: 'R.oo'
+
+The following object is masked from 'package:R.methodsS3':
+
+    throw
+
+The following object is masked from 'package:magrittr':
+
+    equals
+
+The following objects are masked from 'package:methods':
+
+    getClasses, getMethods
+
+The following objects are masked from 'package:base':
+
+    attach, detach, load, save
+
+R.utils v2.12.0 (2022-06-28 03:20:05 UTC) successfully loaded. See ?R.utils for help.
+
+Attaching package: 'R.utils'
+
+The following object is masked from 'package:prospectr':
+
+    resample
+
+The following object is masked from 'package:mdatools':
+
+    capitalize
+
+The following object is masked from 'package:magrittr':
+
+    extract
+
+The following object is masked from 'package:utils':
+
+    timestamp
+
+The following objects are masked from 'package:base':
+
+    cat, commandArgs, getOption, isOpen, nullfile, parse, warnings
+
+Loading required package: Rcpp
+Loading required package: readODS
+Loading required package: rsvg
+Linking to librsvg 2.48.8
+Loading required package: signal
+
+Attaching package: 'signal'
+
+The following objects are masked from 'package:R.utils':
+
+    resample, unwrap
+
+The following object is masked from 'package:prospectr':
+
+    resample
+
+The following object is masked from 'package:dplyr':
+
+    filter
+
+The following object is masked from 'package:plotly':
+
+    filter
+
+The following object is masked from 'package:imager':
+
+    interp
+
+The following objects are masked from 'package:stats':
+
+    filter, poly
+
+Loading required package: sound
+
+Attaching package: 'sound'
+
+The following object is masked from 'package:lubridate':
+
+    duration
+
+The following objects are masked from 'package:imager':
+
+    channels, mirror, play
+
+The following objects are masked from 'package:audio':
+
+    play, play.default, play.Sample
+
+Loading required package: stringi
+Loading required package: tibble
+Loading required package: tools
+
+Attaching package: 'r4dt'
+
+The following object is masked from 'package:lubridate':
+
+    date
+
+The following object is masked from 'package:forecast':
+
+    ma
+
+The following object is masked from 'package:stats':
+
+    time
+
+The following object is masked from 'package:base':
+
+    date
+
+Warning message:
+package 'Rcpp' was built under R version 4.2.1 
+  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [25] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [37] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [49] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [61] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [73] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [85] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [97] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[109] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[121] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[133] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[145] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[157] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[169] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[181] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[193] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[205] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[217] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[229] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[241] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[253] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[265] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[277] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[289] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[301] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[313] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[325] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[337] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[349] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[361] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[373] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[385] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[397] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[409] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[421] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[433] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[445] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[457] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[469] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[481] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[493] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[505] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[517] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[529] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[541] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[553] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[565] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[577] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[589] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[601] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[613] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[625] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[637] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[649] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[661] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[673] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[685] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[697] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[709] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[721] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[733] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[745] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[757] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[769] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[781] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[793] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[805] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[817] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[829] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] FALSE FALSE
+Warning messages:
+1: In file.create(to[okay]) :
+  cannot create file 'CSV/2021-01-21_10.csv', reason 'No such file or directory'
+2: In file.create(to[okay]) :
+  cannot create file 'CSV/2021-01-21_7.csv', reason 'No such file or directory'
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Genshagen$G6,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Genshagen$G6,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Kirkel$A4, 1,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Kirkel$A4, 1,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Karlsruhe$LG,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Karlsruhe$LG,  :
+  NAs introduced by coercion
+  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [25] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [37] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [49] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [61] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [73] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [85] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [97] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[109] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[121] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[133] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[145] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[157] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[169] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[181] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[193] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[205] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[217] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[229] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[241] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[253] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[265] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[277] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[289] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[301] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[313] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[325] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[337] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[349] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[361] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[373] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[385] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[397] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[409] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[421] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[433] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[445] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[457] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[469] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[481] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[493] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[505] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[517] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+[529] FALSE
+There were 50 or more warnings (use warnings() to see the first 50)
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Eppelheim$TS5,  :
+  NAs introduced by coercion
+Warning message:
+In which(!is.na(as.numeric(substr(wartung$zipfiles$Eppelheim$TS5,  :
+  NAs introduced by coercion
+
+Attaching package: 'this.path'
+
+The following object is masked from 'package:tools':
+
+    Rcmd
+
+The following object is masked from 'package:plyr':
+
+    here
+
+The following object is masked from 'package:imager':
+
+    R
+
+Error in is.factor(x) : object 'lg_master' not found
+Calls: file.copy -> paste0 -> substr -> gsub -> is.factor
+Execution halted

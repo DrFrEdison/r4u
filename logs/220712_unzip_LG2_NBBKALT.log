@@ -1,3 +1,5 @@
+Warning message:
+package 'Rcpp' was built under R version 4.2.1 
     customer LG         location       line shortcut samplingtime timerange
  1:     CCEP  2        Genshagen         G2      GEN           90        45
  2:     CCEP  2        Genshagen         G3      GEN           90        45
@@ -19,43 +21,38 @@
 18: CapriSun SG        Eppelheim        TS3      EPP           NA        NA
 19: CapriSun SG        Eppelheim        TS4      EPP           NA        NA
 20: CapriSun SG        Eppelheim    SG500FS      EPP           NA        NA
-CCEP Genshagen G2 2022-07-07.zip to progress 
+CCEP Genshagen G2 2022-07-11.zip to progress 
 
-2022-07-07 for CCEP Genshagen G2 completed, time = 2022-07-08 04:31:13 0 to go
+2022-07-11 for CCEP Genshagen G2 completed, time = 2022-07-12 04:32:19 0 to go
 CCEP Genshagen G2 finished
 Create production list per day
 finished
-CCEP Genshagen G3 2022-07-07.zip to progress 
+CCEP Genshagen G3 2022-07-11.zip to progress 
 
-2022-07-07 for CCEP Genshagen G3 completed, time = 2022-07-08 04:33:04 0 to go
+2022-07-11 for CCEP Genshagen G3 completed, time = 2022-07-12 04:32:57 0 to go
 CCEP Genshagen G3 finished
 Create production list per day
 finished
-CCEP Genshagen G6 2022-07-07.zip to progress 
+CCEP Genshagen G6 2022-07-11.zip to progress 
 
-2022-07-07 for CCEP Genshagen G6 completed, time = 2022-07-08 04:35:01 0 to go
+2022-07-11 for CCEP Genshagen G6 completed, time = 2022-07-12 04:35:12 0 to go
 CCEP Genshagen G6 finished
 Create production list per day
 finished
-CCEP Karlsruhe BCANKD 2022-07-07.zip to progress 
+CCEP Karlsruhe BCANKD 2022-07-11.zip to progress 
 
-2022-07-07 for CCEP Karlsruhe BCANKD completed, time = 2022-07-08 04:37:17 0 to go
+2022-07-11 for CCEP Karlsruhe BCANKD completed, time = 2022-07-12 04:38:12 0 to go
 CCEP Karlsruhe BCANKD finished
 Create production list per day
 finished
 No new files found for MEG Woerth A3, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Woerth/A3/ZIP/
-MEG Woerth A5 2022-07-07.zip to progress 
+MEG Woerth A5 2022-07-11.zip to progress 
 
-2022-07-07 for MEG Woerth A5 completed, time = 2022-07-08 04:38:26 0 to go
+2022-07-11 for MEG Woerth A5 completed, time = 2022-07-12 04:39:50 0 to go
 MEG Woerth A5 finished
 Create production list per day
 finished
-MEG Woerth A6 2022-07-07.zip to progress 
-
-2022-07-07 for MEG Woerth A6 completed, time = 2022-07-08 04:38:33 0 to go
-MEG Woerth A6 finished
-Create production list per day
-finished
+No new files found for MEG Woerth A6, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Woerth/A6/ZIP/
 No new files found for MEG Loeningen BLT31_32, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Loeningen/BLT31_32/ZIP/
 No new files found for MEG Kirkel A4, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/MEG/MEG_Kirkel/A4/ZIP/
 No new files found for PepsiCo Nieder_Roden L3_PET_CSD, searched in //DC-01/Datenverzeichnis_2/ServiceBackup/[SPC_CSV]/PepsiCo/Nieder_Roden/L3_PET_CSD/ZIP/
