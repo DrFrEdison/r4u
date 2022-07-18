@@ -4,3 +4,9 @@ Lade nötiges Paket: this.path
 Loading required package: this.path
 [1] TRUE TRUE TRUE
 [1] TRUE TRUE TRUE
+Loading required package: this.path
+[1] TRUE TRUE TRUE
+[1]  TRUE  TRUE FALSE
+Warning message:
+In file.remove(dir(pattern = ".log$")) :
+  cannot remove file 'unzip_LG2.log', reason 'Permission denied'
