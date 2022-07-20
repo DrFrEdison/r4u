@@ -7,17 +7,17 @@ suppressPackageStartupMessages(library(r4dt))
 dt <- list()
 
 # path to .csv files
-setwd(dt$wd <- print(wd$sql$LG3) ) 
+setwd(dt$wd <- print(wd$sql$LG3) )
 # dt$wd <- paste0( wd$VBox, "Spektren/LG3"); setwd(dt$wd)
 setwd(dt$wd)
 
 # .csv files
-dt$csv <- print(dir(pattern = ".csv$")) 
+dt$csv <- print(dir(pattern = ".csv$"))
 
 # function to transfer files to server structure
 lapply(dt$csv, function(x) LG3_transform_SQL_update_to_csv(x, file_directory = dt$wd))
 
-# LG3_transform_SQL_update_to_csv(csv_file = dt$csv[[2]], file_directory = dt$wd) 
+# LG3_transform_SQL_update_to_csv(csv_file = dt$csv[[2]], file_directory = dt$wd)
 
 # delete files ###
 ##################
